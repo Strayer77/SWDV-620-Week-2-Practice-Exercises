@@ -1,0 +1,26 @@
+header {
+    background-color: gray;
+    color: #ddd;
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: #ddd;
+}
+
+form {
+    padding: 20px;
+}
+
+footer {
+    color: gray;
+    padding: 5px;
+    text-align: center;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 200px;
+}

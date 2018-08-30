@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Favorite Book: Meditations</title>
+        <link href="Week2Themes.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <h1>Meditations</h1>
+            <h3>by</h3>
+            <h2>Marcus Aurelius</h2>
+            <img src="Images/220px-Roman_-_Portrait_of_the_Emperor_Marcus_Aurelius_-_Walters_23215.jpg"/>
+        </header>
+        <TABLE Border="3" Width=100%>
+            <TR>
+                <TH>Title</TH>
+                <TH>Author</TH>
+                <TH>Published</TH>
+                <TH>Links</TH>
+            </TR>
+            <TR ALIGN="CENTER">
+                <TD>Meditations</TD>
+                <TD>Marcus Aurelius</TD>
+                <TD>160 - 180 AD</TD>
+                <TD ALIGN="LEFT">
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Meditations">Wikipedia - Meditations</a></li>
+                        <li><a href="http://classics.mit.edu/Antoninus/meditations.html">Classics.mit.edu</a></li>
+                        <li><a href="https://dailystoic.com/meditations-marcus-aurelius/">Daily Stoic - Meditations</a></li>
+                    </ul>
+                </TD>
+            </TR>
+        </TABLE>
+        <form method="post" action="submit.php">
+            <fieldset>
+                <legend>Contact Form<em>(All Fields Required)</em></legend>
+                <label for ="Username">Username: </label>
+                <input type="text" name="Username" id="Username" required="required">
+                <br>
+                <label for="pwd">
+                    <span>Password: </span>
+                    <strong><abbr title="required"></abbr></strong>
+                </label>
+                <input type="password" id="pwd" name="password">
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Comments</legend>
+                <textarea name="Comments" id="Comments" rows="5" cols="45"></textarea>
+            </fieldset>
+            <input type="reset" class="formButton" value="Clear">
+            <input type="submit" class="formButton" value="Submit">
+        </form>
+        <footer>
+            Matt Strayer - 2018
+        </footer>
+    </body>
+</html>
